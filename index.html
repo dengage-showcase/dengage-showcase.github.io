@@ -3,7 +3,7 @@
     window.dataLayer = [];
     function dengage() {};
     function locationHashChanged() {
-      var oldLocation = window.location.href
+      var oldUrl = window.location.href
       setInterval(function() {
           var newUrl = window.location.href;
           if (oldUrl != newUrl) {
@@ -33,7 +33,7 @@
                 am:"__TRANSACTION_AMOUNT__"
               });
           }
-      }, 1000);
+      }, 500);
     };
   </script>
   <meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>dEngage</title><meta http-equiv=content-type content="text/html;charset=utf-8"><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="e-commerce site well design with responsive view."><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=robots content=noindex,follow><link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel=stylesheet type=text/css><link href="https://fonts.googleapis.com/css?family=Arimo" rel=stylesheet type=text/css><script>!function(v){
